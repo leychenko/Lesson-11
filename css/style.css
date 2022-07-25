@@ -1,0 +1,75 @@
+/* &display=swap */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,regular,700,900,&display=swap);
+
+
+.wrapper {
+  /* overflow: hidden; */
+  min-height: 100%;
+}
+body{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.conteiner{
+	position: relative;
+}
+.header__fon{
+	max-width: 1200px;
+	min-height: 200px;
+	background: url(../image/image\ new.webp) 0 0 no-repeat;
+}
+
+.main__conteiner {
+	padding: 25px 0 5px 80px;
+	border: 1px solid black;
+	border-radius: 10px;
+	max-width: 950px;
+	min-height: 600px;
+	background: url(../image/dark-4487690_960_720.jpg) 0 0 no-repeat;
+	color: aliceblue;
+	margin: 0 auto;
+ 	position:relative;
+	top: -80px;
+}
+h6{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	margin: 0 0 20px 0;
+}
+h6::before{
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../image/check.png) 0 0px / 16px 16px no-repeat;
+	margin: 0 5px 0 0;
+}
+
+h1{
+	font-style: normal;
+	font-size: 30px;
+	font-weight: 900;
+	margin: 0 0 20px 0;
+}
+.main__conteiner_text {
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 400;
+ }
+.footer { 
+	width: 800px;
+	height: 400px;
+	background: url(../image/krugi-shary-bolshie-srednie.jpg) 0 0 / 800px 400px no-repeat;
+	border: 1px solid white;
+	border-radius: 10px;
+	box-shadow: 0 0 8px 2px white;
+	margin: 0 auto;
+	position: relative;
+	top: -400px;
+}
